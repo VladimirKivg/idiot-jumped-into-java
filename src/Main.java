@@ -1,5 +1,8 @@
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
+        ArrayList <Integer>list =new ArrayList();
         int x = 0;
         int z = 0;
         String ss = "!";
@@ -10,7 +13,7 @@ public class Main {
             String s = String.valueOf(a);
             if (s.equals(ss)) {
                 System.out.println(x+" = "+a);
-                z = x;
+                list.add(x);
             }
         }
 
