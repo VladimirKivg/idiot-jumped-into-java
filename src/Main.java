@@ -16,8 +16,8 @@ public class Main {
                 list.add(x);
             }
         }
-
-        System.out.println(z + " = " + ss);
+for (int i:list){
+        System.out.println(i + " = " + ss);}
 
     }
 }
