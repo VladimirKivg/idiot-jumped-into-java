@@ -8,7 +8,8 @@ public class Main {
             char a = (char) x;
             System.out.print(a + " ");
             String s = String.valueOf(a);
-            if (s.equals("K")) {
+            if (s.equals(ss)) {
+
                 z = x;
             }
         }
