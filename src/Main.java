@@ -12,7 +12,7 @@ public class Main {
             System.out.print(a + " ");
             String s = String.valueOf(a);
             if (s.equals(ss)) {
-             //   System.out.println(x+" = "+a);
+                System.out.println(x+" = "+a);
                 list.add(x);
             }
         }
