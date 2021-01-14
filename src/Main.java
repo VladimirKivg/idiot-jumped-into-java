@@ -16,8 +16,11 @@ public class Main {
                 list.add(x);
             }
         }
+        System.out.println();
 for (int i:list){
+
         System.out.println(i + " = " + ss);}
+        System.out.println(ss.codePointAt(0));// схоже що є два однаковіх занака і юнікоді
 
     }
 }
