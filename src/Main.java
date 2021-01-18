@@ -17,12 +17,12 @@ public class Main {
             }
         }
         System.out.println();
-for (int i:list){
-
-        System.out.println(i + " = " + ss);}
-        System.out.println(ss.codePointAt(0));// схоже що є два однаковіх занака і юнікоді
-int[]in={1,3};//продолжить эту тему
-      //  String as= 22,5;
+//for (int i:list){
+//
+//        System.out.println(i + " = " + ss);}
+//        System.out.println(ss.codePointAt(0));// схоже що є два однаковіх занака і юнікоді
+//int[]in={1,3};//продолжить эту тему
+//      //  String as= 22,5;
         System.out.println(ss.indexOf(288));
 
     }
