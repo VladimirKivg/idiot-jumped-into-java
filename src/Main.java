@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayList <Integer>list =new ArrayList();
+        ArrayList <Ded>list =new ArrayList();
         int x = 0;
         int z = 0;
         String ss = "Ġ";
