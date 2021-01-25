@@ -5,6 +5,7 @@ public class Main {
         ArrayList <Ded>list =new ArrayList();
         int x = 0;
         int z = 0;
+        Ded ded = new Ded();
         String ss = "Ġ";
         while (x <= 120000) {
             x++;
@@ -13,7 +14,7 @@ public class Main {
             String s = String.valueOf(a);
             if (s.equals(ss)) {
                 System.out.println(x+" = "+a);
-                list.add(x);
+              //  list.add(x);
             }
         }
         System.out.println();
@@ -25,5 +26,11 @@ public class Main {
 //      //  String as= 22,5;
         System.out.println(ss.indexOf(288));
 
+        Time time =new Time();
+        time.timeExperiment();
+
     }
 }
+
+
+
