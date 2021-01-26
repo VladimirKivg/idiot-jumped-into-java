@@ -29,6 +29,10 @@ public class Main {
         Time time =new Time();
         time.timeExperiment();
 
+        StringBuilder sb = new StringBuilder("sss");
+        sb.append("SSS").insert(1,"vov").insert(3,"ttt");
+        System.out.println(sb);
+
     }
 }
 
