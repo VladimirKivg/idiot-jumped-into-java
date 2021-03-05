@@ -7,7 +7,7 @@ public class Main {
         int z = 0;
         Ded ded = new Ded();
         String ss = "Ġ";
-        while (x <= 120000) {
+        while (x <= 1200000) {
             x++;
             char a = (char) x;
             System.out.print(a + " ");
@@ -19,13 +19,15 @@ public class Main {
                list.add(ded);
             }
         }
-        System.out.println("__________________________________________");
-//for (int i:list){
-//
-//        System.out.println(i + " = " + ss);}
-//        System.out.println(ss.codePointAt(0));// схоже що є два однаковіх занака і юнікоді
-//int[]in={1,3};//продолжить эту тему
-//      //  String as= 22,5;
+        System.out.println(list.size()+"__________________________________________");
+for (Ded ded1:list){
+
+        System.out.println(ded1.getI() + " = " + ded1.getName());// для меня пока загадка , почему выводиться только паследние цыфры
+}
+
+       System.out.println(ss.codePointAt(0)+"____________");//виводить позицыю в юныкоды схоже що є два однаковіх занака і юнікоді
+int[]in={1,3};//продолжить эту тему
+      //  String as= 22,5;
         System.out.println(ss.indexOf(288));
         System.out.println("___________________________________________");
         Time time =new Time();
