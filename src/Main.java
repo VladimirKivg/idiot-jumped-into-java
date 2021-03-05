@@ -14,7 +14,9 @@ public class Main {
             String s = String.valueOf(a);
             if (s.equals(ss)) {
                 System.out.println(x+" = "+a);
-              //  list.add(x);
+                ded.setI(x);
+                ded.setName(s);
+               list.add(ded);
             }
         }
         System.out.println("__________________________________________");
