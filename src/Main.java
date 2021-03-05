@@ -17,7 +17,7 @@ public class Main {
               //  list.add(x);
             }
         }
-        System.out.println();
+        System.out.println("__________________________________________");
 //for (int i:list){
 //
 //        System.out.println(i + " = " + ss);}
@@ -25,9 +25,10 @@ public class Main {
 //int[]in={1,3};//продолжить эту тему
 //      //  String as= 22,5;
         System.out.println(ss.indexOf(288));
-
+        System.out.println("___________________________________________");
         Time time =new Time();
         time.timeExperiment();
+        System.out.println("____________________________________________");
 
         StringBuilder sb = new StringBuilder("sss");
         sb.append("SSS").insert(1,"vov").insert(3,"ttt");
