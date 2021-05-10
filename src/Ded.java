@@ -1,6 +1,6 @@
 public class Ded {
-private int i;
-private String name;
+    private int i;
+    private String name;
 
     public Ded(int i, String name) {
         this.i = i;
